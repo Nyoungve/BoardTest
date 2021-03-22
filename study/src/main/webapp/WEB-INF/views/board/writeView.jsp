@@ -63,7 +63,7 @@
 					<table>
 						<tbody>
 							<c:if test="${member.userId != null}">
-								<tr>
+								<tr class="form-group">
 									<td>
 										<label for="title">제목</label><input type="text" id="title" name="title" class="chk" title="제목을 입력하세요."/>
 									</td>
